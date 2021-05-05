@@ -1,0 +1,157 @@
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+body {
+background-color: rgba(160, 187, 199, 0.5);
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+}
+h3{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+}
+
+p{
+  font-weight: 200;
+}
+
+i {
+  font-size: 30px;
+}
+
+.avatar-rounded {
+  width: 136px;
+  height: 136px;
+  border-radius: 50%;
+  object-fit: cover;
+  animation: rotate-btn .5s linear 3;
+}
+/* 
+.background {
+  background:url(../images/background.jpeg);
+	opacity:0.75;
+} */
+
+a {
+  text-decoration: none;
+  color :rgba(29, 26, 26, 0.822)
+}
+
+.linear-gradient {
+  background: linear-gradient(to bottom right, rgba(40, 56, 69, 0.37), rgba(99, 131, 155, 0.96));
+  padding: 36px;
+  text-align: center;
+  border-radius: 3%;
+  box-shadow: 15px 10px 30px  rgba(147, 102, 102, 0.37);    /* Light shadow */
+}
+
+.card-beige{
+  background: linear-gradient(to bottom right, rgba(40, 56, 69, 0.37), rgba(99, 131, 155, 0.96));
+  padding: 36px;
+  margin-bottom: 16px;
+  text-align: center;
+  border-radius: 3%;
+  box-shadow: 15px 10px 30px  rgba(147, 102, 102, 0.37);    /* Light shadow */
+}
+
+.card-brown {
+  background: linear-gradient(to bottom right, rgba(40, 56, 69, 0.37), rgba(99, 131, 155, 0.96));
+  padding: 36px;
+  /* margin-bottom: 16px; */
+  margin : 16px, auto;
+  text-align: center; 
+  border-radius: 3%;
+  box-shadow: 15px 10px 30px  rgba(160, 104, 104, 0.274);    /* Light shadow */
+}
+
+.card-blue{
+  background-color: rgba(66, 129, 164, 0.5);
+  padding: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+  border-radius: 3%;
+  box-shadow: 7px 10px 30px  rgba(66, 129, 164, 0.37);    /* Light shadow */
+}
+
+.btn-blue{
+  background-color: rgba(147, 102, 102, 0.5);
+  padding: 8px 16px;
+  border-radius: 36px;
+}
+.btn-blue:hover {
+  background-color: rgba(66, 129, 164, 0.5);
+  border: 2px solid rgba(167, 90, 90, 0.507);
+  color: rgba(54, 43, 43, 0.507);
+}
+
+.btn-skill {
+  background-color: rgba(167, 90, 90, 0.507);
+  padding: 8px 8px;
+  border-radius: 36px;
+
+}
+.btn-skill:hover {
+  background-color: rgba(99, 70, 70, 0.904);
+  border: 2px solid rgba(66, 129, 164, 0.5);
+  color: rgba(255, 255, 255, 0.459);
+
+}
+
+.rotate li{
+  text-decoration: none;
+  padding:  8px 8px;
+  list-style: none;
+}
+
+@keyframes rotate-btn {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+/* animation: rotate-btn .5s linear 3; */ */
+
+
+.list-inline {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+/* .list-inline li {
+  margin: 0 8px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+} */
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
